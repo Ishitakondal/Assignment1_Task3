@@ -1,0 +1,1 @@
+join -t$ '\t' -1 1 annonation_sorted.tab expression_sorted.tab > query.txt
