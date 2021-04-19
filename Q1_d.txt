@@ -1,0 +1,4 @@
+SELECT a.metabolism
+FROM annotation a
+GROUP BY metabolism
+HAVING COUNT(a.metabolism)>1;
