@@ -1,0 +1,1 @@
+select m.Lastname, m.Firstname, m.memberID from Member as m where m.JoinDate>"2013-01-01";
