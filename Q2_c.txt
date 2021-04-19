@@ -1,0 +1,3 @@
+select m.MemberID, m.Lastname, m.Firstname from Member m where not exists
+(select * from Entry e inner join Tournament t on e.TourID = t.TourID 
+where e.MemberID = m.MemberID and Year="2013");
